@@ -22,7 +22,7 @@ class ClassToFlatString implements ClassToString {
 
   @override
   void add(String field, Object? value) {
-    if (value == null) return;
+//     if (value == null) return;
     if (_hasPreviousField) _result!.write(',');
     _result!
       ..write(field)
