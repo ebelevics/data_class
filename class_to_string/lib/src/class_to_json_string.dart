@@ -31,7 +31,7 @@ class ClassToJsonString implements ClassToString {
 
   @override
   void add(String field, Object? value) {
-    if (value == null) return;
+//     if (value == null) return;
     _result2![field] = value;
 
     _result!
