@@ -25,7 +25,7 @@ class ClassToIndentString implements ClassToString {
 
   @override
   void add(String field, Object? value) {
-    if (value == null) return;
+//     if (value == null) return;
     if (_isEmpty) {
       _isEmpty = false;
       _result!.writeln();
